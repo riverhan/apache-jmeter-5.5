@@ -1,85 +1,1269 @@
-2022-12-30 22:45:04,805 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
-2022-12-30 22:45:04,821 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2022-12-30 22:45:04,830 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2022-12-30 22:45:04,835 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
-2022-12-30 22:45:04,835 INFO o.a.j.JMeter: Version 5.5
-2022-12-30 22:45:04,835 INFO o.a.j.JMeter: java.version=19.0.1
-2022-12-30 22:45:04,835 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2022-12-30 22:45:04,835 INFO o.a.j.JMeter: os.name=Mac OS X
-2022-12-30 22:45:04,835 INFO o.a.j.JMeter: os.arch=aarch64
-2022-12-30 22:45:04,836 INFO o.a.j.JMeter: os.version=13.1
-2022-12-30 22:45:04,836 INFO o.a.j.JMeter: file.encoding=UTF-8
-2022-12-30 22:45:04,836 INFO o.a.j.JMeter: java.awt.headless=null
-2022-12-30 22:45:04,836 INFO o.a.j.JMeter: Max memory     =1073741824
-2022-12-30 22:45:04,836 INFO o.a.j.JMeter: Available Processors =10
-2022-12-30 22:45:04,842 INFO o.a.j.JMeter: Default Locale=English (EN)
-2022-12-30 22:45:04,843 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
-2022-12-30 22:45:04,843 INFO o.a.j.JMeter: JMeterHome=/Users/riveryoyo/Downloads/apache-jmeter-5.5
-2022-12-30 22:45:04,843 INFO o.a.j.JMeter: user.dir  =/Users/riveryoyo/Downloads/apache-jmeter-5.5/bin
-2022-12-30 22:45:04,843 INFO o.a.j.JMeter: PWD       =/Users/riveryoyo/Downloads/apache-jmeter-5.5/bin
-2022-12-30 22:45:04,854 INFO o.a.j.JMeter: IP: 192.168.1.4 Name: riveryoyodeMacBook-Pro.local FullName: 192.168.1.4
-2022-12-30 22:45:04,864 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2022-12-30 22:45:05,109 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.IntelliJTheme
-2022-12-30 22:45:17,053 INFO o.a.j.s.FileServer: Default base='/Users/riveryoyo/Downloads/apache-jmeter-5.5/bin'
-2022-12-30 22:45:17,055 INFO o.a.j.g.a.Load: Loading file: /Users/riveryoyo/Downloads/查看结果树.jmx
-2022-12-30 22:45:17,055 INFO o.a.j.s.FileServer: Set new base='/Users/riveryoyo/Downloads'
-2022-12-30 22:45:17,136 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2022-12-30 22:45:17,148 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2022-12-30 22:45:17,149 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2022-12-30 22:45:17,149 INFO o.a.j.s.SaveService: Loading file: /Users/riveryoyo/Downloads/查看结果树.jmx
-2022-12-30 22:45:17,158 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2022-12-30 22:45:17,160 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-12-30 22:45:17,160 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-12-30 22:45:17,161 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-12-30 22:45:17,161 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-12-30 22:45:17,161 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2022-12-30 22:45:17,161 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2022-12-30 22:45:17,359 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2022-12-30 22:45:17,359 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2022-12-30 22:45:17,359 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2022-12-30 22:45:17,359 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2022-12-30 22:45:17,419 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-12-30 22:45:17,460 INFO o.a.j.s.FileServer: Set new base='/Users/riveryoyo/Downloads'
-2022-12-30 22:45:25,416 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-12-30 22:45:25,417 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-12-30 22:45:25,417 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-12-30 22:45:25,418 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2022-12-30 22:45:25,418 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2022-12-30 22:45:25,435 INFO o.a.j.t.TestPlan: added C:\Users\Administrator\Downloads\mysql-connector-java-8.0.30\mysql-connector-java-8.0.30.jar to classpath
-2022-12-30 22:45:25,444 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2022-12-30 22:45:25,462 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
-2022-12-30 22:45:25,463 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
-2022-12-30 22:45:25,463 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-12-30 22:45:25,463 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-12-30 22:45:25,465 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-12-30 22:45:25,465 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-12-30 22:45:25,465 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
-2022-12-30 22:45:25,470 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = riveryoyodeMacBook-Pro.local
-2022-12-30 22:45:25,473 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2022-12-30 22:45:25,514 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2022-12-30 22:45:25,515 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2022-12-30 22:45:25,515 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2022-12-30 22:45:25,565 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2022-12-30 22:45:25,567 INFO o.a.j.u.SSLManager: KeyStore created OK
-2022-12-30 22:45:25,567 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2022-12-30 22:45:26,289 INFO o.a.j.s.FileServer: Stored: C:\Users\Administrator\Desktop\123.jpg
-2022-12-30 22:45:26,300 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
-2022-12-30 22:45:26,300 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
-2022-12-30 22:45:26,300 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-12-30 22:45:26,300 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2022-12-30 22:46:44,566 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-12-30 22:46:44,567 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-12-30 22:46:44,568 INFO o.a.j.t.TestPlan: added C:\Users\Administrator\Downloads\mysql-connector-java-8.0.30\mysql-connector-java-8.0.30.jar to classpath
-2022-12-30 22:46:44,568 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2022-12-30 22:46:44,588 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
-2022-12-30 22:46:44,589 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
-2022-12-30 22:46:44,589 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-12-30 22:46:44,589 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-12-30 22:46:44,591 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-12-30 22:46:44,591 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-12-30 22:46:44,591 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
-2022-12-30 22:46:45,207 INFO o.a.j.s.FileServer: Stored: C:\Users\Administrator\Desktop\123.jpg
-2022-12-30 22:46:45,213 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
-2022-12-30 22:46:45,213 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
-2022-12-30 22:46:45,213 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-12-30 22:46:45,213 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 15:54:39,855 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2023-01-01 15:54:39,871 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-01-01 15:54:39,872 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-01-01 15:54:39,875 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-01-01 15:54:39,875 INFO o.a.j.JMeter: Version 5.5
+2023-01-01 15:54:39,875 INFO o.a.j.JMeter: java.version=19.0.1
+2023-01-01 15:54:39,875 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-01-01 15:54:39,875 INFO o.a.j.JMeter: os.name=Mac OS X
+2023-01-01 15:54:39,875 INFO o.a.j.JMeter: os.arch=aarch64
+2023-01-01 15:54:39,875 INFO o.a.j.JMeter: os.version=13.1
+2023-01-01 15:54:39,875 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-01-01 15:54:39,875 INFO o.a.j.JMeter: java.awt.headless=null
+2023-01-01 15:54:39,876 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-01-01 15:54:39,876 INFO o.a.j.JMeter: Available Processors =10
+2023-01-01 15:54:39,881 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-01-01 15:54:39,881 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2023-01-01 15:54:39,881 INFO o.a.j.JMeter: JMeterHome=/Users/riveryoyo/Downloads/apache-jmeter-5.5
+2023-01-01 15:54:39,881 INFO o.a.j.JMeter: user.dir  =/Users/riveryoyo/Downloads/apache-jmeter-5.5/bin
+2023-01-01 15:54:39,881 INFO o.a.j.JMeter: PWD       =/Users/riveryoyo/Downloads/apache-jmeter-5.5/bin
+2023-01-01 15:54:39,884 INFO o.a.j.JMeter: IP: 192.168.1.4 Name: riveryoyodeMacBook-Pro.local FullName: 192.168.1.4
+2023-01-01 15:54:39,888 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-01-01 15:54:40,089 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.IntelliJTheme
+2023-01-01 15:54:44,057 INFO o.a.j.s.FileServer: Default base='/Users/riveryoyo/Downloads/apache-jmeter-5.5/bin'
+2023-01-01 15:54:57,806 INFO o.a.j.g.a.Load: Loading file: /Users/riveryoyo/Downloads/查看结果树.jmx
+2023-01-01 15:54:57,806 INFO o.a.j.s.FileServer: Set new base='/Users/riveryoyo/Downloads'
+2023-01-01 15:54:57,893 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-01-01 15:54:57,906 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-01-01 15:54:57,906 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-01-01 15:54:57,907 INFO o.a.j.s.SaveService: Loading file: /Users/riveryoyo/Downloads/查看结果树.jmx
+2023-01-01 15:54:57,916 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-01-01 15:54:57,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-01-01 15:54:57,921 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-01-01 15:54:57,921 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-01-01 15:54:57,921 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-01-01 15:54:57,921 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-01-01 15:54:57,921 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-01-01 15:54:58,185 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-01-01 15:54:58,185 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-01-01 15:54:58,185 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-01-01 15:54:58,185 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-01-01 15:54:58,251 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-01-01 15:54:58,296 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-01-01 15:54:58,318 INFO o.a.j.s.FileServer: Set new base='/Users/riveryoyo/Downloads'
+2023-01-01 15:55:03,719 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 15:55:03,720 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 15:55:03,720 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 15:55:03,720 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-01-01 15:55:03,720 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-01-01 15:55:03,736 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 15:55:03,736 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 15:55:03,756 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 15:55:03,756 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 15:55:03,756 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 15:55:03,756 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 15:55:03,758 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 15:55:03,759 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 15:55:03,759 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 15:55:03,761 INFO o.a.j.u.BeanShellTestElement: 测试一下
+2023-01-01 15:55:03,761 ERROR o.a.j.u.BeanShellTestElement: 这里出错了
+2023-01-01 15:55:03,762 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 15:55:03,762 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 15:55:03,762 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 15:55:03,762 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:00:29,281 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:00:29,281 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:00:29,282 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:00:29,282 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:00:29,299 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:00:29,299 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:00:29,299 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:00:29,299 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:00:29,300 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:00:29,300 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:00:29,300 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:00:29,301 INFO o.a.j.u.BeanShellTestElement: 测试一下
+2023-01-01 16:00:29,301 ERROR o.a.j.u.BeanShellTestElement: 这里出错了
+2023-01-01 16:00:29,301 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:00:29,301 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:00:29,301 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:00:29,302 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:13:15,450 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:13:15,451 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:13:15,451 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:13:15,451 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:13:15,476 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:13:15,476 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:13:15,476 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:13:15,477 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:13:15,478 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:13:15,478 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:13:15,478 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:13:15,481 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  Strin . . . '' Encountered "log" at line 5, column 1.
+
+2023-01-01 16:13:15,481 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  Strin . . . '' Encountered "log" at line 5, column 1.
+
+2023-01-01 16:13:15,481 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:13:15,481 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:13:15,481 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:13:15,481 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:13:41,521 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:13:41,528 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:13:41,528 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:13:41,529 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:13:41,556 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:13:41,556 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:13:41,556 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:13:41,556 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:13:41,558 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:13:41,558 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:13:41,558 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:13:41,559 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:13:41,559 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:13:41,559 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:13:41,559 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:13:41,560 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:14:11,608 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:14:11,608 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:14:11,609 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:14:11,609 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:14:11,636 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:14:11,637 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:14:11,637 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:14:11,637 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:14:11,639 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:14:11,639 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:14:11,639 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:14:11,645 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = riveryoyodeMacBook-Pro.local
+2023-01-01 16:14:11,648 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-01-01 16:14:11,697 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-01-01 16:14:11,699 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-01-01 16:14:11,699 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-01-01 16:14:11,757 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-01-01 16:14:11,758 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-01-01 16:14:11,758 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-01-01 16:14:12,061 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:14:12,061 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:14:12,061 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:14:12,065 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:14:12,065 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:15:26,391 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:15:26,391 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:15:26,391 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:15:26,392 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:15:26,419 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:15:26,419 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:15:26,419 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:15:26,420 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:15:26,421 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:15:26,421 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:15:26,421 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:15:26,633 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:15:26,634 INFO o.a.j.u.BeanShellTestElement: 64_WgtN1CchNOmy6C-GEM9P15MZSdtfs-4Du174fwIwAPF079lvp6wKPe25AsKqQ5mqCxKx1fZUkbC-SVB08-h8dtzosQZqPC8sCs4yS4dAyZC64krm1qGR2HbRrAsZUEbAHAFAK
+2023-01-01 16:15:26,634 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:15:26,634 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:15:26,635 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:15:26,635 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:19:02,543 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:19:02,543 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:19:02,543 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:19:02,544 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:19:02,568 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:19:02,569 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:19:02,569 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:19:02,569 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:19:02,571 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:19:02,571 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:19:02,571 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:19:02,852 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:19:02,854 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  // 获取 . . . '' Encountered "log" at line 10, column 1.
+
+2023-01-01 16:19:02,854 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  // 获取 . . . '' Encountered "log" at line 10, column 1.
+
+2023-01-01 16:19:02,855 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age":"18");'' Encountered "( \"age\" :" at line 1, column 9.
+
+2023-01-01 16:19:02,856 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age":"18");'' Encountered "( \"age\" :" at line 1, column 9.
+
+2023-01-01 16:19:02,856 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:19:02,856 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:19:02,857 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:19:02,857 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:21:00,220 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:21:00,220 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:21:00,221 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:21:00,221 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:21:00,267 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:21:00,267 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:21:00,267 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:21:00,267 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:21:00,269 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:21:00,270 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:21:00,270 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:21:00,469 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age":"18");'' Encountered "( \"age\" :" at line 1, column 9.
+
+2023-01-01 16:21:00,469 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age":"18");'' Encountered "( \"age\" :" at line 1, column 9.
+
+2023-01-01 16:21:00,470 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:21:00,470 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  // 获取 . . . '' Encountered "log" at line 10, column 1.
+
+2023-01-01 16:21:00,470 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  // 获取 . . . '' Encountered "log" at line 10, column 1.
+
+2023-01-01 16:21:00,470 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:21:00,470 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:21:00,470 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:21:00,471 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:22:52,899 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:22:52,899 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:22:52,900 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:22:52,900 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:22:52,928 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:22:52,928 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:22:52,928 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:22:52,928 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:22:52,931 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:22:52,932 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:22:52,932 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:22:53,174 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:22:53,175 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  // 获取 . . . '' Encountered "log" at line 10, column 1.
+
+2023-01-01 16:22:53,175 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  // 获取 . . . '' Encountered "log" at line 10, column 1.
+
+2023-01-01 16:22:53,175 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:22:53,176 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:22:53,176 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:22:53,177 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:23:26,516 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:23:26,516 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:23:26,517 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:23:26,517 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:23:26,543 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:23:26,543 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:23:26,543 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:23:26,543 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:23:26,545 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:23:26,545 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:23:26,546 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:23:26,706 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:23:26,707 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  // 获取 . . . '' Encountered "log" at line 10, column 1.
+
+2023-01-01 16:23:26,707 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``//log.info("测试一下"); //log.error("这里出错了"); //System.out.println("JAVA打印");  // 获取 . . . '' Encountered "log" at line 10, column 1.
+
+2023-01-01 16:23:26,707 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:23:26,707 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:23:26,708 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:23:26,708 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:24:03,802 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:24:03,802 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:24:03,802 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:24:03,803 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:24:03,828 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:24:03,828 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:24:03,828 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:24:03,828 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:24:03,831 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:24:03,831 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:24:03,831 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:24:03,998 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:24:03,999 INFO o.a.j.u.BeanShellTestElement: 64_kw5EpDQo3I26UWNrN0z5tTq_1G5sdR9DeJ-AWO3NotLi-_Rgpjw6cy_GwRM6aSmvmpBu6qPepgpvncmyjlPGguToUCeGW-BLckeZbMN1NRXXa1V9q7ENzC3yIe4NFFiAJAJBB
+2023-01-01 16:24:03,999 INFO o.a.j.u.BeanShellTestElement: 18
+2023-01-01 16:24:03,999 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:24:03,999 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:24:04,000 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:24:04,000 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:36:05,305 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:36:05,305 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:36:05,305 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:36:05,307 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:36:05,333 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:36:05,333 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:36:05,333 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:36:05,333 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:36:05,337 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:36:05,337 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:36:05,337 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:36:05,595 INFO o.a.j.u.BeanShellTestElement: {"access_token":"64_I8nH2avonLzgZ2UQBUZLaDQq8EBbY8E8b473LlhdjFNtvjyNFgT86jb_6Pl539H2qST9cRh2OJ3masKmnBlTpnY-Tk0UcNJWHFA-xaFaJARNrin6Khm-wESvJHIEGFeAEAKML","expires_in":7200}
+2023-01-01 16:36:05,596 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:36:05,596 INFO o.a.j.u.BeanShellTestElement: 64_I8nH2avonLzgZ2UQBUZLaDQq8EBbY8E8b473LlhdjFNtvjyNFgT86jb_6Pl539H2qST9cRh2OJ3masKmnBlTpnY-Tk0UcNJWHFA-xaFaJARNrin6Khm-wESvJHIEGFeAEAKML
+2023-01-01 16:36:05,597 INFO o.a.j.u.BeanShellTestElement: 18
+2023-01-01 16:36:05,597 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:36:05,597 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:36:05,597 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:36:05,598 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:36:53,923 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:36:53,923 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:36:53,924 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:36:53,924 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:36:53,953 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:36:53,953 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:36:53,953 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:36:53,953 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:36:53,956 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:36:53,956 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:36:53,956 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:36:54,131 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``log.info(prev.getResponseDataAsString()) log.info(prev.getResponseCode()+"");'' Encountered "log" at line 2, column 1.
+
+2023-01-01 16:36:54,132 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``log.info(prev.getResponseDataAsString()) log.info(prev.getResponseCode()+"");'' Encountered "log" at line 2, column 1.
+
+2023-01-01 16:36:54,133 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:36:54,133 INFO o.a.j.u.BeanShellTestElement: 64_wcO4UrSOjauKgqGxY4JZN6ZbgOJ_hH6XMF7YIWZpnzzgigrgw4Q_tjmnsiKkZbYSKLwlIBNQ93lAc3XyNnXryHETrjRvlmeZaOTzvbghcp3tj6kH_qZGQIMyg3MXHPiAIABLT
+2023-01-01 16:36:54,133 INFO o.a.j.u.BeanShellTestElement: 18
+2023-01-01 16:36:54,133 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:36:54,134 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:36:54,134 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:36:54,135 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:37:22,502 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:37:22,502 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:37:22,502 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:37:22,502 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:37:22,527 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:37:22,527 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:37:22,527 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:37:22,527 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:37:22,531 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:37:22,531 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:37:22,531 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:37:22,725 INFO o.a.j.u.BeanShellTestElement: {"access_token":"64_okHdzSngi_iV0UcFnabpDU55rE7oWoKf3jcm4-4sQJRfwsOqjygtBDtGrvvT_j3tA0KYdlSijU8Kv7EG3gQQDOw2E2bUeuG1dIN3XBSlG6_lF3KxMcXJD8zYKfwPJUhADAKEP","expires_in":7200}
+2023-01-01 16:37:22,727 INFO o.a.j.u.BeanShellTestElement: 200
+2023-01-01 16:37:22,728 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:37:22,728 INFO o.a.j.u.BeanShellTestElement: 64_okHdzSngi_iV0UcFnabpDU55rE7oWoKf3jcm4-4sQJRfwsOqjygtBDtGrvvT_j3tA0KYdlSijU8Kv7EG3gQQDOw2E2bUeuG1dIN3XBSlG6_lF3KxMcXJD8zYKfwPJUhADAKEP
+2023-01-01 16:37:22,728 INFO o.a.j.u.BeanShellTestElement: 18
+2023-01-01 16:37:22,728 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:37:22,728 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:37:22,729 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:37:22,729 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:38:31,872 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:38:31,872 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:38:31,873 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:38:31,873 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:38:31,900 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:38:31,900 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:38:31,900 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:38:31,900 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:38:31,903 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:38:31,903 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:38:31,903 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:38:32,109 INFO o.a.j.u.BeanShellTestElement: {"access_token":"64_h_FbP8hfmyrhlqnaz20EMh1nkDB425rjiUHBAsPVegkW5ZewoU1FZYtNM9K0mzVE4lh9x2_8s0AhIzozIzbf9OdBF76NdByxJKS4LIHoDdKU1p-TiRM7dNratr4PGXhADALCT","expires_in":7200}
+2023-01-01 16:38:32,110 INFO o.a.j.u.BeanShellTestElement: 200
+2023-01-01 16:38:32,112 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age","18") props.put("sex","male");'' Encountered "props" at line 2, column 1.
+
+2023-01-01 16:38:32,112 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age","18") props.put("sex","male");'' Encountered "props" at line 2, column 1.
+
+2023-01-01 16:38:32,113 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:38:32,113 INFO o.a.j.u.BeanShellTestElement: 64_h_FbP8hfmyrhlqnaz20EMh1nkDB425rjiUHBAsPVegkW5ZewoU1FZYtNM9K0mzVE4lh9x2_8s0AhIzozIzbf9OdBF76NdByxJKS4LIHoDdKU1p-TiRM7dNratr4PGXhADALCT
+2023-01-01 16:38:32,113 INFO o.a.j.u.BeanShellTestElement: null
+2023-01-01 16:38:32,114 INFO o.a.j.u.BeanShellTestElement: null
+2023-01-01 16:38:32,114 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:38:32,114 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:38:32,115 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:38:32,115 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:38:43,516 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:38:43,516 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:38:43,517 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:38:43,517 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:38:43,543 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:38:43,543 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:38:43,543 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:38:43,543 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:38:43,546 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:38:43,546 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:38:43,546 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:38:43,719 INFO o.a.j.u.BeanShellTestElement: {"access_token":"64_h_FbP8hfmyrhlqnaz20EMh1nkDB425rjiUHBAsPVegkW5ZewoU1FZYtNM9K0mzVE4lh9x2_8s0AhIzozIzbf9OdBF76NdByxJKS4LIHoDdKU1p-TiRM7dNratr4BTBhADAQIQ","expires_in":7200}
+2023-01-01 16:38:43,720 INFO o.a.j.u.BeanShellTestElement: 200
+2023-01-01 16:38:43,721 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age","18") props.put("sex","male");'' Encountered "props" at line 2, column 1.
+
+2023-01-01 16:38:43,721 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age","18") props.put("sex","male");'' Encountered "props" at line 2, column 1.
+
+2023-01-01 16:38:43,721 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:38:43,722 INFO o.a.j.u.BeanShellTestElement: 64_h_FbP8hfmyrhlqnaz20EMh1nkDB425rjiUHBAsPVegkW5ZewoU1FZYtNM9K0mzVE4lh9x2_8s0AhIzozIzbf9OdBF76NdByxJKS4LIHoDdKU1p-TiRM7dNratr4BTBhADAQIQ
+2023-01-01 16:38:43,722 INFO o.a.j.u.BeanShellTestElement: null
+2023-01-01 16:38:43,722 INFO o.a.j.u.BeanShellTestElement: null
+2023-01-01 16:38:43,722 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:38:43,722 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:38:43,723 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:38:43,723 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:39:04,261 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:39:04,262 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:39:04,262 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:39:04,262 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:39:04,288 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:39:04,288 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:39:04,288 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:39:04,288 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:39:04,292 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:39:04,292 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:39:04,292 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:39:04,476 INFO o.a.j.u.BeanShellTestElement: {"access_token":"64_o_bQQVGucmtrhrTJzHtEHAvLqNbG9DW6wjqzx9MPZCE7KVR_Dx_oU0rX-Sfbl_O5FUroKp96Dz7a9rk7vJdBCJfDx9qD4L_W-3zbeFRcpblJDGMyX7YCmlwBLQ8FWBcAJAMDI","expires_in":7200}
+2023-01-01 16:39:04,477 INFO o.a.j.u.BeanShellTestElement: 200
+2023-01-01 16:39:04,478 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age","18") props.put("sex","male");'' Encountered "props" at line 2, column 1.
+
+2023-01-01 16:39:04,478 WARN o.a.j.p.j.s.BeanShellSampler: Exception executing script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``vars.put("age","18") props.put("sex","male");'' Encountered "props" at line 2, column 1.
+
+2023-01-01 16:39:04,478 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:39:04,479 INFO o.a.j.u.BeanShellTestElement: 64_o_bQQVGucmtrhrTJzHtEHAvLqNbG9DW6wjqzx9MPZCE7KVR_Dx_oU0rX-Sfbl_O5FUroKp96Dz7a9rk7vJdBCJfDx9qD4L_W-3zbeFRcpblJDGMyX7YCmlwBLQ8FWBcAJAMDI
+2023-01-01 16:39:04,479 INFO o.a.j.u.BeanShellTestElement: null
+2023-01-01 16:39:04,480 INFO o.a.j.u.BeanShellTestElement: null
+2023-01-01 16:39:04,481 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:39:04,481 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:39:04,481 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:39:04,482 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:39:25,098 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:39:25,099 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:39:25,099 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:39:25,099 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:39:25,128 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:39:25,128 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:39:25,128 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:39:25,128 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:39:25,132 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:39:25,132 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:39:25,132 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:39:25,368 INFO o.a.j.u.BeanShellTestElement: {"access_token":"64_7LifnWYz2dSq3jYr6_NEU6RRSmvbmf9xwmTaha3xhFDdF5OYcEcaOJvVLAsRwProBL4gLdHIsAATabFHRLk-dIJ6QDeTSM7wAyBUI84qLCn9wp3rtdg8KJ_Dx14ITQaABAMXU","expires_in":7200}
+2023-01-01 16:39:25,369 INFO o.a.j.u.BeanShellTestElement: 200
+2023-01-01 16:39:25,372 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:39:25,372 INFO o.a.j.u.BeanShellTestElement: 64_7LifnWYz2dSq3jYr6_NEU6RRSmvbmf9xwmTaha3xhFDdF5OYcEcaOJvVLAsRwProBL4gLdHIsAATabFHRLk-dIJ6QDeTSM7wAyBUI84qLCn9wp3rtdg8KJ_Dx14ITQaABAMXU
+2023-01-01 16:39:25,372 INFO o.a.j.u.BeanShellTestElement: 18
+2023-01-01 16:39:25,372 INFO o.a.j.u.BeanShellTestElement: male
+2023-01-01 16:39:25,373 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:39:25,373 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:39:25,374 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:39:25,374 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:40:18,409 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-01-01 16:40:57,929 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:40:57,929 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:40:57,930 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:40:57,930 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:40:57,961 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:40:57,961 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:40:57,961 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:40:57,961 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:40:57,965 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:40:57,965 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2023-01-01 16:40:57,965 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:40:57,965 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:40:57,965 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:40:57,965 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:40:57,966 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-01-01 16:40:57,966 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:40:57,966 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2023-01-01 16:40:57,966 INFO o.a.j.u.BeanShellTestElement: sex:male
+2023-01-01 16:40:57,966 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2023-01-01 16:40:57,966 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2023-01-01 16:40:58,162 INFO o.a.j.u.BeanShellTestElement: {"access_token":"64_vWaB6BjKx_HNGlfiRRsKpCvofb2rvjMG2-lfdjuAXWl-dzg1jacCnWkri1QejUWYdNv6fwtk38fWi2xER7grahgDWhcTVWTXYzHv3KILeu9m_WiM2lgBIf9I0vwOONiAAAKKJ","expires_in":7200}
+2023-01-01 16:40:58,163 INFO o.a.j.u.BeanShellTestElement: 200
+2023-01-01 16:40:58,165 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:40:58,165 INFO o.a.j.u.BeanShellTestElement: 64_vWaB6BjKx_HNGlfiRRsKpCvofb2rvjMG2-lfdjuAXWl-dzg1jacCnWkri1QejUWYdNv6fwtk38fWi2xER7grahgDWhcTVWTXYzHv3KILeu9m_WiM2lgBIf9I0vwOONiAAAKKJ
+2023-01-01 16:40:58,165 INFO o.a.j.u.BeanShellTestElement: 18
+2023-01-01 16:40:58,165 INFO o.a.j.u.BeanShellTestElement: male
+2023-01-01 16:40:58,165 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:40:58,166 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:40:58,166 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:40:58,167 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 16:41:22,754 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 16:41:22,755 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 16:41:22,755 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 16:41:22,755 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 16:41:22,786 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 16:41:22,786 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:41:22,786 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:41:22,786 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:41:22,789 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 16:41:22,789 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2023-01-01 16:41:22,789 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 16:41:22,789 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 16:41:22,789 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 16:41:22,789 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 16:41:22,790 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-01-01 16:41:22,790 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 16:41:22,790 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2023-01-01 16:41:22,790 INFO o.a.j.u.BeanShellTestElement: sex:male
+2023-01-01 16:41:22,791 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2023-01-01 16:41:22,791 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2023-01-01 16:41:22,971 INFO o.a.j.u.BeanShellTestElement: {"access_token":"64_wgic4D7HHdl7NT9qn_k-LhkdEGj12eHuTDk8_bEo-YbTB0nwfGQxJJWdePMq_7tZxoqUf-TEnXbZ1Wr_2kywdVM3Eoq05Wnw9RfRqRInacnzz4oGvlgKlazU3M0XOJbAAARID","expires_in":7200}
+2023-01-01 16:41:22,971 INFO o.a.j.u.BeanShellTestElement: 200
+2023-01-01 16:41:22,972 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 16:41:22,972 INFO o.a.j.u.BeanShellTestElement: 64_wgic4D7HHdl7NT9qn_k-LhkdEGj12eHuTDk8_bEo-YbTB0nwfGQxJJWdePMq_7tZxoqUf-TEnXbZ1Wr_2kywdVM3Eoq05Wnw9RfRqRInacnzz4oGvlgKlazU3M0XOJbAAARID
+2023-01-01 16:41:22,972 INFO o.a.j.u.BeanShellTestElement: 18
+2023-01-01 16:41:22,973 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 16:41:22,973 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 16:41:22,973 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 16:41:22,974 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-01 19:50:08,445 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-01 19:50:08,445 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-01 19:50:08,446 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-01 19:50:08,446 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-01 19:50:08,469 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-01-01 19:50:08,469 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 19:50:08,469 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 19:50:08,469 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 19:50:08,472 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-01 19:50:08,472 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2023-01-01 19:50:08,472 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2023-01-01 19:50:08,472 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-01 19:50:08,472 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2023-01-01 19:50:08,472 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-01-01 19:50:08,473 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-01-01 19:50:08,473 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-01 19:50:08,473 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2023-01-01 19:50:08,474 INFO o.a.j.u.BeanShellTestElement: sex:male
+2023-01-01 19:50:08,474 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2023-01-01 19:50:08,474 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2023-01-01 19:50:08,682 INFO o.a.j.u.BeanShellTestElement: {"access_token":"64_6xUFSs8bm_UBN9GLc3jp2YKh_5XIGUeSSPkkqA-MOGGR7fZaJcrSB0XFeYSMlOQ-bOOkOfex-cC2anocT90JBtuf-YIwbfZGtM5lAei3qZVa__-fS3wvLKHhw4EEFIeAIAXYB","expires_in":7200}
+2023-01-01 19:50:08,683 INFO o.a.j.u.BeanShellTestElement: 200
+2023-01-01 19:50:08,685 INFO o.a.j.u.BeanShellTestElement: riveryoyo
+2023-01-01 19:50:08,685 INFO o.a.j.u.BeanShellTestElement: 64_6xUFSs8bm_UBN9GLc3jp2YKh_5XIGUeSSPkkqA-MOGGR7fZaJcrSB0XFeYSMlOQ-bOOkOfex-cC2anocT90JBtuf-YIwbfZGtM5lAei3qZVa__-fS3wvLKHhw4EEFIeAIAXYB
+2023-01-01 19:50:08,686 INFO o.a.j.u.BeanShellTestElement: 18
+2023-01-01 19:50:08,686 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2023-01-01 19:50:08,686 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-01-01 19:50:08,686 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-01 19:50:08,687 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:00:20,456 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:00:20,457 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:00:20,457 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:00:20,457 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:00:20,488 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:00:20,488 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:00:20,488 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:00:20,488 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:00:20,488 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:00:20,488 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:00:20,488 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:00:20,512 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:00:20,512 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:00:20,512 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:00:20,512 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:00:32,129 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-01-02 01:00:35,475 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:00:35,475 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:00:35,475 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:00:35,475 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:00:35,507 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:00:35,507 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:00:35,507 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:00:35,507 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:00:35,508 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:00:35,508 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:00:35,508 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:00:35,527 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:00:35,527 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:00:35,527 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:00:35,527 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:03:07,094 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:03:07,094 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:03:07,094 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:03:07,095 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:03:07,130 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:03:07,130 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:03:07,130 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:03:07,130 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:03:07,130 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:03:07,130 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:03:07,130 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:03:07,153 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:03:07,153 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:03:07,153 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:03:07,153 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:04:44,353 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:04:44,353 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:04:44,354 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:04:44,354 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:04:44,387 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:04:44,387 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:04:44,387 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:04:44,387 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:04:44,387 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:04:44,387 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:04:44,388 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:04:44,404 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:04:44,404 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:04:44,404 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:04:44,405 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:06:17,757 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:06:17,758 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:06:17,758 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:06:17,758 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:06:17,790 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:06:17,790 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:06:17,790 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:06:17,790 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:06:17,790 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:06:17,790 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:06:17,790 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:06:17,811 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:06:17,811 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:06:17,811 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:06:17,811 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:07:42,486 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:07:42,487 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:07:42,487 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:07:42,487 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:07:42,516 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:07:42,517 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:07:42,517 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:07:42,517 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:07:42,517 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:07:42,517 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:07:42,517 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:07:42,541 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:07:42,541 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:07:42,541 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:07:42,541 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:08:52,695 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:08:52,695 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:08:52,696 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:08:52,696 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:08:52,725 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:08:52,725 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:08:52,725 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:08:52,725 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:08:52,725 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:08:52,725 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:08:52,725 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:08:52,748 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:08:52,748 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:08:52,748 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:08:52,748 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:14:01,537 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:14:01,538 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:14:01,538 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:14:01,538 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:14:01,568 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:14:01,568 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:14:01,568 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:14:01,568 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:14:01,569 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:14:01,569 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:14:01,569 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:14:01,594 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:14:01,594 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:14:01,594 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:14:01,594 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:15:06,167 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:15:06,167 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:15:06,168 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:15:06,168 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:15:06,198 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:15:06,198 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:15:06,198 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:15:06,198 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:15:06,198 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:15:06,198 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:15:06,198 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:15:06,219 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:15:06,219 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:15:06,219 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:15:06,219 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:16:08,995 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:16:08,995 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:16:08,996 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:16:08,996 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:16:09,025 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:16:09,025 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:16:09,025 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:16:09,025 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:16:09,025 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:16:09,025 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:16:09,025 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:16:09,045 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:16:09,045 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:16:09,045 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:16:09,045 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:16:32,529 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:16:32,529 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:16:32,530 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:16:32,530 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:16:32,558 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:16:32,558 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:16:32,558 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:16:32,558 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:16:32,559 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:16:32,559 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:16:32,559 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:16:32,578 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:16:32,578 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:16:32,578 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:16:32,578 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:17:42,832 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:17:42,833 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:17:42,833 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:17:42,833 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:17:42,865 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:17:42,865 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:17:42,865 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:17:42,865 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:17:42,865 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:17:42,865 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:17:42,865 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:17:42,884 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:17:42,884 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:17:42,884 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:17:42,884 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:18:19,639 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:18:19,639 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:18:19,639 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:18:19,639 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:18:19,669 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:18:19,669 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:18:19,669 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:18:19,669 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:18:19,669 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:18:19,669 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:18:19,669 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:18:19,692 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:18:19,693 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:18:19,693 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:18:19,693 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:22:56,877 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:22:56,877 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:22:56,878 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:22:56,878 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:22:56,911 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:22:56,911 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:22:56,911 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:22:56,911 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:22:56,911 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:22:56,911 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:22:56,911 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:22:56,933 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:22:56,933 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:22:56,933 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:22:56,934 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 01:24:39,044 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 01:24:39,044 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 01:24:39,044 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 01:24:39,044 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 01:24:39,075 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 01:24:39,075 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 01:24:39,075 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 01:24:39,075 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 01:24:39,075 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 01:24:39,075 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 01:24:39,075 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 01:24:39,094 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 01:24:39,094 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 01:24:39,094 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 01:24:39,095 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:12:25,962 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:12:25,962 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:12:25,963 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:12:25,963 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:12:25,999 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:12:25,999 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:12:25,999 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:12:25,999 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:12:26,001 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:12:26,001 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:12:26,001 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:12:26,025 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import org.apache.commons.codec.digest.DigestUtils; //md5加密 String username . . . '' : Undefined argument: username_md5 
+2023-01-02 15:12:26,026 WARN o.a.j.a.BeanShellAssertion: Error in BeanShellAssertion
+org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import org.apache.commons.codec.digest.DigestUtils; //md5加密 String username . . . '' : Undefined argument: username_md5 
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:179) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:185) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:150) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:106) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:944) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:913) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:586) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:162) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+Caused by: bsh.EvalError: Sourced file: inline evaluation of: ``//导包 import org.apache.commons.codec.digest.DigestUtils; //md5加密 String username . . . '' : Undefined argument: username_md5 
+	at bsh.BSHArguments.getArguments(BSHArguments.java:62) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:63) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:96) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:41) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.eval(Interpreter.java:659) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.eval(Interpreter.java:750) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.eval(Interpreter.java:739) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:162) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+2023-01-02 15:12:26,029 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:12:26,029 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:12:26,030 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:12:26,030 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:19:07,483 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:19:07,483 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:19:07,483 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:19:07,483 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:19:07,515 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:19:07,515 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:19:07,515 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:19:07,515 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:19:07,517 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:19:07,517 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:19:07,517 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:19:07,541 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:19:07,541 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:19:07,541 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:19:07,541 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:19:47,636 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:19:47,636 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:19:47,636 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:19:47,636 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:19:47,664 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:19:47,664 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:19:47,664 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:19:47,664 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:19:47,666 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:19:47,666 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:19:47,666 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:19:47,694 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:19:47,694 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:19:47,694 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:19:47,695 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:21:55,629 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:21:55,629 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:21:55,630 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:21:55,630 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:21:55,659 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:21:55,659 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:21:55,659 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:21:55,659 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:21:55,660 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:21:55,661 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:21:55,661 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:21:55,680 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:21:55,681 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:21:55,681 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:21:55,681 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:22:52,482 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:22:52,482 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:22:52,482 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:22:52,482 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:22:52,513 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:22:52,513 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:22:52,513 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:22:52,513 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:22:52,514 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:22:52,514 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:22:52,515 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:22:52,819 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import org.apache.commons.codec.digest.DigestUtils; //md5加密 String username . . . '' : Undefined argument: usrname_md5 
+2023-01-02 15:22:52,819 WARN o.a.j.a.BeanShellAssertion: Error in BeanShellAssertion
+org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import org.apache.commons.codec.digest.DigestUtils; //md5加密 String username . . . '' : Undefined argument: usrname_md5 
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:179) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:185) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:150) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:106) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:944) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:913) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:586) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:162) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+Caused by: bsh.EvalError: Sourced file: inline evaluation of: ``//导包 import org.apache.commons.codec.digest.DigestUtils; //md5加密 String username . . . '' : Undefined argument: usrname_md5 
+	at bsh.BSHArguments.getArguments(BSHArguments.java:62) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:63) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:96) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:41) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.eval(Interpreter.java:659) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.eval(Interpreter.java:750) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.eval(Interpreter.java:739) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:162) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+2023-01-02 15:22:52,819 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:22:52,819 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:22:52,820 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:22:52,820 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:23:12,526 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:23:12,527 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:23:12,527 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:23:12,527 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:23:12,555 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:23:12,555 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:23:12,555 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:23:12,555 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:23:12,557 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:23:12,557 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:23:12,557 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:23:12,778 INFO o.a.j.u.BeanShellTestElement: 21232f297a57a5a743894a0e4a801fc3
+2023-01-02 15:23:12,778 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:23:12,779 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:23:12,779 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:23:12,779 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:23:37,021 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:23:37,021 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:23:37,021 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:23:37,021 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:23:37,050 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:23:37,051 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:23:37,051 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:23:37,051 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:23:37,052 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:23:37,052 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:23:37,052 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:23:37,068 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``//导包 import org.apache.commons.codec.digest.DigestUtils; //md5加密 String username . . . '' Encountered "log" at line 10, column 1.
+
+2023-01-02 15:23:37,068 WARN o.a.j.a.BeanShellAssertion: Error in BeanShellAssertion
+org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``//导包 import org.apache.commons.codec.digest.DigestUtils; //md5加密 String username . . . '' Encountered "log" at line 10, column 1.
+
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:179) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:185) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:150) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:106) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:944) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:913) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:586) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:162) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+Caused by: bsh.ParseException: In file: inline evaluation of: ``//导包 import org.apache.commons.codec.digest.DigestUtils; //md5加密 String username . . . '' Encountered "log" at line 10, column 1.
+
+	at bsh.Parser.generateParseException(Parser.java:6106) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Parser.jj_consume_token(Parser.java:5977) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Parser.Statement(Parser.java:2699) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Parser.BlockStatement(Parser.java:2819) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Parser.Line(Parser.java:172) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.Line(Interpreter.java:1011) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.eval(Interpreter.java:641) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.eval(Interpreter.java:750) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at bsh.Interpreter.eval(Interpreter.java:739) ~[bsh-2.0b6.jar:2.0b6 2016-02-05 05:16:19]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:162) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+2023-01-02 15:23:37,069 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:23:37,069 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:23:37,069 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:23:37,069 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:23:46,094 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:23:46,095 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:23:46,095 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:23:46,095 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:23:46,122 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:23:46,122 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:23:46,122 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:23:46,122 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:23:46,123 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:23:46,123 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:23:46,124 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:23:46,144 INFO o.a.j.u.BeanShellTestElement: 21232f297a57a5a743894a0e4a801fc3
+2023-01-02 15:23:46,144 INFO o.a.j.u.BeanShellTestElement: 202cb962ac59075b964b07152d234b70
+2023-01-02 15:23:46,145 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:23:46,145 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:23:46,145 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:23:46,145 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:24:18,591 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:24:18,591 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:24:18,591 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:24:18,592 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:24:18,620 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:24:18,620 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:24:18,620 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:24:18,620 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:24:18,622 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:24:18,622 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:24:18,622 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:24:18,639 INFO o.a.j.u.BeanShellTestElement: 21232f297a57a5a743894a0e4a801fc3
+2023-01-02 15:24:18,639 INFO o.a.j.u.BeanShellTestElement: 202cb962ac59075b964b07152d234b70
+2023-01-02 15:24:18,639 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:24:18,639 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:24:18,639 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:24:18,639 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:26:39,310 INFO o.a.j.g.a.Load: Loading file: /Users/riveryoyo/Downloads/jiami.jmx
+2023-01-02 15:26:39,310 INFO o.a.j.s.FileServer: Set new base='/Users/riveryoyo/Downloads'
+2023-01-02 15:26:39,310 INFO o.a.j.s.SaveService: Loading file: /Users/riveryoyo/Downloads/jiami.jmx
+2023-01-02 15:26:39,336 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-01-02 15:26:39,348 INFO o.a.j.s.FileServer: Set new base='/Users/riveryoyo/Downloads'
+2023-01-02 15:27:12,985 INFO o.a.j.g.a.Load: Loading file: /Users/riveryoyo/Downloads/查看结果树.jmx
+2023-01-02 15:27:12,985 INFO o.a.j.s.FileServer: Set new base='/Users/riveryoyo/Downloads'
+2023-01-02 15:27:12,985 INFO o.a.j.s.SaveService: Loading file: /Users/riveryoyo/Downloads/查看结果树.jmx
+2023-01-02 15:27:13,034 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-01-02 15:27:13,049 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-01-02 15:27:13,060 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-01-02 15:27:13,071 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-01-02 15:27:13,082 INFO o.a.j.s.FileServer: Set new base='/Users/riveryoyo/Downloads'
+2023-01-02 15:28:26,681 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:28:26,681 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:28:26,681 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:28:26,683 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:28:26,722 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:28:26,722 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:28:26,722 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:28:26,722 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:28:26,723 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:28:26,723 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:28:26,723 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:28:26,724 INFO o.a.j.u.BeanShellTestElement: 21232f297a57a5a743894a0e4a801fc3
+2023-01-02 15:28:26,724 INFO o.a.j.u.BeanShellTestElement: 202cb962ac59075b964b07152d234b70
+2023-01-02 15:28:26,746 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:28:26,746 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:28:26,746 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:28:26,746 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:30:17,170 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:30:17,170 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:30:17,171 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:30:17,171 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:30:17,204 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:30:17,204 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:30:17,204 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:30:17,204 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:30:17,206 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:30:17,206 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:30:17,206 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:30:17,207 INFO o.a.j.u.BeanShellTestElement: 21232f297a57a5a743894a0e4a801fc3
+2023-01-02 15:30:17,207 INFO o.a.j.u.BeanShellTestElement: 202cb962ac59075b964b07152d234b70
+2023-01-02 15:30:17,244 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:30:17,244 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:30:17,244 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:30:17,244 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:46:57,115 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:46:57,115 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:46:57,116 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:46:57,116 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:46:57,153 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:46:57,153 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:46:57,153 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:46:57,153 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:46:57,155 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:46:57,155 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:46:57,155 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:46:57,156 INFO o.a.j.u.BeanShellTestElement: 21232f297a57a5a743894a0e4a801fc3
+2023-01-02 15:46:57,156 INFO o.a.j.u.BeanShellTestElement: 202cb962ac59075b964b07152d234b70
+2023-01-02 15:46:57,188 INFO o.a.j.u.BeanShellTestElement: 21232f297a57a5a743894a0e4a801fc3
+2023-01-02 15:46:57,188 INFO o.a.j.u.BeanShellTestElement: 202cb962ac59075b964b07152d234b70
+2023-01-02 15:46:57,218 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:46:57,218 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:46:57,218 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:46:57,218 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 15:49:25,551 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 15:49:25,551 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 15:49:25,552 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 15:49:25,552 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 15:49:25,588 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 15:49:25,588 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 15:49:25,588 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 15:49:25,588 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 15:49:25,590 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 15:49:25,590 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 15:49:25,590 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 15:49:25,592 INFO o.a.j.u.BeanShellTestElement: 21232f297a57a5a743894a0e4a801fc3
+2023-01-02 15:49:25,592 INFO o.a.j.u.BeanShellTestElement: 202cb962ac59075b964b07152d234b70
+2023-01-02 15:49:25,632 INFO o.a.j.u.BeanShellTestElement: YWRtaW4=
+2023-01-02 15:49:25,632 INFO o.a.j.u.BeanShellTestElement: MTIz
+2023-01-02 15:49:25,648 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 15:49:25,648 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 15:49:25,648 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 15:49:25,649 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 16:07:30,006 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 16:07:30,007 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 16:07:30,007 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 16:07:30,007 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 16:07:30,050 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 16:07:30,051 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 16:07:30,051 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 16:07:30,051 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 16:07:30,054 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 16:07:30,054 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 16:07:30,054 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 16:07:30,055 INFO o.a.j.u.BeanShellTestElement: 21232f297a57a5a743894a0e4a801fc3
+2023-01-02 16:07:30,055 INFO o.a.j.u.BeanShellTestElement: 202cb962ac59075b964b07152d234b70
+2023-01-02 16:07:30,095 INFO o.a.j.u.BeanShellTestElement: YWRtaW4=
+2023-01-02 16:07:30,095 INFO o.a.j.u.BeanShellTestElement: MTIz
+2023-01-02 16:07:30,114 INFO o.a.j.u.BeanShellTestElement: 加密结果为：c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec
+2023-01-02 16:07:30,156 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.commons.codec.digest.DigestUtils; String miwen = DigestUtils.s . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:07:30,156 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.commons.codec.digest.DigestUtils; String miwen = DigestUtils.s . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:07:30,173 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 16:07:30,173 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 16:07:30,173 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 16:07:30,173 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 16:11:57,538 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 16:11:57,539 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 16:11:57,539 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 16:11:57,539 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 16:11:57,573 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 16:11:57,573 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 16:11:57,573 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 16:11:57,573 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 16:11:57,574 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 16:11:57,574 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 16:11:57,574 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 16:11:57,575 INFO o.a.j.u.BeanShellTestElement: 加密结果为：c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec
+2023-01-02 16:11:57,588 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.commons.codec.digest.DigestUtils; String miwen = DigestUtils.s . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:11:57,588 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.commons.codec.digest.DigestUtils; String miwen = DigestUtils.s . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:11:57,609 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 16:11:57,609 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 16:11:57,609 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 16:11:57,609 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 16:12:20,107 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 16:12:20,107 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 16:12:20,107 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 16:12:20,107 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 16:12:20,151 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 16:12:20,151 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 16:12:20,151 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 16:12:20,151 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 16:12:20,152 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 16:12:20,152 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 16:12:20,152 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 16:12:20,153 INFO o.a.j.u.BeanShellTestElement: 加密结果为：c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec
+2023-01-02 16:12:20,159 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.commons.codec.digest.DigestUtils; String miwen = DigestUtils.s . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:12:20,159 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.apache.commons.codec.digest.DigestUtils; String miwen = DigestUtils.s . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:12:20,178 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 16:12:20,178 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 16:12:20,178 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 16:12:20,179 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 16:14:52,419 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 16:14:52,419 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 16:14:52,419 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 16:14:52,419 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 16:14:52,451 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 16:14:52,451 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 16:14:52,451 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 16:14:52,451 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 16:14:52,453 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 16:14:52,453 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 16:14:52,453 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 16:14:52,459 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:14:52,459 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:14:52,476 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 16:14:52,476 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 16:14:52,476 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 16:14:52,476 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 16:19:29,845 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 16:19:29,845 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 16:19:29,845 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 16:19:29,845 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 16:19:29,876 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 16:19:29,876 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 16:19:29,876 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 16:19:29,876 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 16:19:29,878 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 16:19:29,878 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 16:19:29,878 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 16:19:29,900 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:19:29,900 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 16:19:29,918 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 16:19:29,919 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 16:19:29,919 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 16:19:29,919 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 18:21:27,611 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 18:21:27,611 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 18:21:27,611 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 18:21:27,612 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 18:21:27,645 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 18:21:27,645 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 18:21:27,645 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 18:21:27,645 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 18:21:27,647 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 18:21:27,647 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 18:21:27,647 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 18:21:27,667 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:21:27,667 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:21:27,685 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 18:21:27,685 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 18:21:27,685 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 18:21:27,685 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 18:25:47,000 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 18:25:47,000 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 18:25:47,000 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 18:25:47,000 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 18:25:47,034 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 18:25:47,034 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 18:25:47,034 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 18:25:47,034 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 18:25:47,035 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 18:25:47,035 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 18:25:47,035 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 18:25:47,046 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:25:47,046 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:25:47,066 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 18:25:47,066 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 18:25:47,066 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 18:25:47,067 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 18:33:34,859 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 18:33:34,859 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 18:33:34,859 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 18:33:34,859 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 18:33:34,890 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 18:33:34,890 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 18:33:34,890 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 18:33:34,890 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 18:33:34,891 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 18:33:34,891 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 18:33:34,892 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 18:33:34,892 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' Encountered "admin" at line 6, column 93.
+
+2023-01-02 18:33:34,892 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' Encountered "admin" at line 6, column 93.
+
+2023-01-02 18:33:34,912 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 18:33:34,912 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 18:33:34,913 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 18:33:34,913 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 18:34:24,709 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 18:34:24,709 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 18:34:24,710 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 18:34:24,710 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 18:34:24,739 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 18:34:24,739 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 18:34:24,739 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 18:34:24,739 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 18:34:24,740 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 18:34:24,740 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 18:34:24,740 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 18:34:24,741 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' Encountered "admin" at line 6, column 93.
+
+2023-01-02 18:34:24,741 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' Encountered "admin" at line 6, column 93.
+
+2023-01-02 18:34:24,881 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 18:34:24,881 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 18:34:24,881 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 18:34:24,881 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 18:35:44,048 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 18:35:44,049 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 18:35:44,049 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 18:35:44,049 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 18:35:44,081 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 18:35:44,081 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 18:35:44,081 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 18:35:44,081 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 18:35:44,083 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 18:35:44,083 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 18:35:44,083 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 18:35:44,126 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:35:44,126 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:35:44,146 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 18:35:44,147 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 18:35:44,147 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 18:35:44,147 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 18:38:00,783 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 18:38:00,783 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 18:38:00,784 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 18:38:00,784 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 18:38:00,814 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 18:38:00,814 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 18:38:00,814 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 18:38:00,814 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 18:38:00,816 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 18:38:00,816 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 18:38:00,816 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 18:38:00,823 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:38:00,823 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:38:00,842 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 18:38:00,842 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 18:38:00,842 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 18:38:00,842 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-01-02 18:38:12,725 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-01-02 18:38:12,725 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-01-02 18:38:12,725 INFO o.a.j.t.TestPlan: added /Users/riveryoyo/Library/Application Support/JetBrains/DataGrip2022.3/jdbc-drivers/MySQL ConnectorJ/5.1.35/mysql-connector-java-5.1.35-bin.jar to classpath
+2023-01-02 18:38:12,725 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-01-02 18:38:12,757 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组-加解密
+2023-01-02 18:38:12,757 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组-加解密.
+2023-01-02 18:38:12,757 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-01-02 18:38:12,757 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-01-02 18:38:12,758 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-01-02 18:38:12,758 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-01-02 18:38:12,758 INFO o.a.j.t.JMeterThread: Thread started: 线程组-加解密 1-1
+2023-01-02 18:38:12,774 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:38:12,774 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``//导包 import java.io.BufferedReader; import java.io.InputStreamReader; //组建cmd命令并 . . . '' : Typed variable declaration : Method Invocation rt.exec
+2023-01-02 18:38:12,792 INFO o.a.j.t.JMeterThread: Thread is done: 线程组-加解密 1-1
+2023-01-02 18:38:12,792 INFO o.a.j.t.JMeterThread: Thread finished: 线程组-加解密 1-1
+2023-01-02 18:38:12,793 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-01-02 18:38:12,793 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
